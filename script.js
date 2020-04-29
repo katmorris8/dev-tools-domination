@@ -6,9 +6,14 @@ function makeGreen() {
     p.style.fontSize = '50px';
 }
 
+const emoji = '🤩';
+
 // Regular
+console.log('hello');
 
 // Interpolated
+console.log('Hello I am a %s string!', '🤓');
+console.log(`Hello I am a ${emoji}`);
 
 // Styled
 
