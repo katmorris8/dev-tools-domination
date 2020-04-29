@@ -28,8 +28,12 @@ console.error('Eeek!');
 console.info('Crocodiles eat 3-4 people per year');
 
 // Testing
+const p = document.querySelector('p');
+console.assert(1 === 2, 'That is wrong');
+console.assert(p.classList.contains('bold'), 'No such class on this element.');
 
 // clearing
+console.clear();
 
 // Viewing DOM Elements
 
