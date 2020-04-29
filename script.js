@@ -16,6 +16,7 @@ console.log('Hello I am a %s string!', '🤓');
 console.log(`Hello I am a ${emoji}`);
 
 // Styled
+console.log('%c I am some great text', 'font-size: 25px; background: purple; text-shadow: 5px 5px 0 darkslategray');
 
 // warning!
 
