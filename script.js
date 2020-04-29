@@ -50,5 +50,23 @@ dogs.forEach(dog => {
 })
 
 // counting
+console.count('hello');
+console.count('hello');
+console.count('world');
+console.count('hello');
+console.count('hello');
+console.count('world');
+console.count('hello');
+console.count('hello');
 
 // timing
+console.time('fetching data');
+fetch('https://api.github.com/users/katmorris8')
+    .then(data => data.json())
+    .then(data => {
+        console.timeEnd('fetching data')
+        console.log(data);
+    });
+
+
+console.table(dogs)
