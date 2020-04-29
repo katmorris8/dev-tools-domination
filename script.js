@@ -36,6 +36,8 @@ console.assert(p.classList.contains('bold'), 'No such class on this element.');
 console.clear();
 
 // Viewing DOM Elements
+console.log(p);
+console.dir(p);
 
 // Grouping together
 
