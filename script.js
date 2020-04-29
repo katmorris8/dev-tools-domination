@@ -19,10 +19,13 @@ console.log(`Hello I am a ${emoji}`);
 console.log('%c I am some great text', 'font-size: 25px; background: purple; text-shadow: 5px 5px 0 darkslategray');
 
 // warning!
+console.warn('OH NO');
 
 // Error :|
+console.error('Eeek!');
 
 // Info
+console.info('Crocodiles eat 3-4 people per year');
 
 // Testing
 
